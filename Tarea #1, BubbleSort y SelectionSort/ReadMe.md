@@ -1,10 +1,10 @@
-El siguiente trabajo corresponde a la primer tarea del curso de an醠isis de algoritmos.
+El siguiente trabajo corresponde a la primer tarea del curso de **an谩lisis de algoritmos**, del estudiante Eduardo Andr茅s Chavarr铆a Rey, Carn茅t: 2013012779.
 El trabajo contiene los siguientes archivos:  
- *Documentaci髇.md : Portada correspondiente al trabajo.
- *Hip髏esis.md : Plantea una hip髏esis con respecto a los resultados esperados en esta actividad, 
-antes de realizar la experimentaci髇 y determina los par醡etros 髉timos para ambos algoritmos.
- *Bubble.py : Contiene el c骴igo funcional del algoritmo Burbuja, con el an醠isis que le corresponde.
- *Selection.py : Contiene el c骴igo funcional Selecci髇, con su debido an醠isis.
- *Bubble-Selection Experimental.py : Utiliza un algoritmo que provee del tiempo de ejecuci髇 promedio 
- de cada algor韙mo, mientras genera las entradas de estos de forma aleatoria. Con tal comprobar la 
- hip髏esis.
+ * **Documentaci贸n.md** : Portada correspondiente al trabajo.
+ * **Hip贸tesis.md** : Plantea una hip贸tesis con respecto a los resultados esperados en esta actividad, 
+antes de realizar la experimentaci贸n y determina los par谩metros 贸ptimos para ambos algoritmos.
+ * **Bubble.py** : Contiene el c贸digo funcional del algoritmo Burbuja, con el an谩lisis que le corresponde.
+ * **Selection.py** : Contiene el c贸digo funcional Selecci贸n, con su debido an谩lisis.
+ * **Bubble-Selection Experimental.py** : Utiliza un algoritmo que provee del tiempo de ejecuci贸n promedio 
+ de cada algor铆tmo, mientras genera las entradas de estos de forma aleatoria. Con tal comprobar la 
+ hip贸tesis.
