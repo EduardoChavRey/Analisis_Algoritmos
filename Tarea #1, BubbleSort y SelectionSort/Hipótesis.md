@@ -1,5 +1,5 @@
-####Hipótesis   
-#####Algoritmo Burbuja:
+###Hipótesis   
+####Algoritmo Burbuja:
 Este algoritmo requiere de examinar cada valor de la lista, y verificar si el valor del elemento actual 
 es menor al del elemento que le sigue. Por ende, ese deducible que el mejor caso para este algoritmo 
 sea uno en el que todos los "N" elementos de la lista esten ordenados. Por lo que solo requerirá 
@@ -17,7 +17,7 @@ Una lista con valores al azar.
 #####Peor caso
 El peor caso del algoritmo burbuja, sería en el que se le ingrese una lista cuyos valores están ordenados de forma invertida. Puesto que para ordenarla, se ocuparía recorrer la lista N*N veces (Sea N=Tamaño de la ista).
 
-#####Algoritmo de Selección:
+####Algoritmo de Selección:
 Este algoritmo requiere de recorrer toda la lista de "N" elementos, y encontrar el elemento más pequeño de la lista, e irlos poniendo al principio de la lista. 
 
 #####Mejor caso   
