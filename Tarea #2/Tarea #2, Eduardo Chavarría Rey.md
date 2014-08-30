@@ -12,7 +12,7 @@ mas baja para cada algoritmo.
 
 2) Un algoritmo cuadrático tiene un tiempo de procesamiento T(n) = c * n ^2 y tarda T(Z) segundos 
 para procesar Z elementos de datos. 
-¿Cuanto tiempo tardaría en procesar n = 5000 elementos de datos, asumiendo que Z = 100 y que T(Z) = 1ms?
+¿Cuanto tiempo tardaría en procesar n=5000 elementos de datos, asumiendo que Z=100 y que T(Z)=1ms?
 
 ![E1:](https://raw.githubusercontent.com/EduardoChavRey/Analisis_Algoritmos/master/Tarea%20%232/Imagenes/%232.png) 
 
