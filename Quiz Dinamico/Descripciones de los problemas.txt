@@ -1,0 +1,19 @@
+Problemas: 
+ 1) Fibonacci: En este caso el caso base es un número el cual 
+debe ser descompuesto por el valor fibonacci del valor base menos 1 
+más el valor fibonacci del valor base menos 2.
+
+ 2) CambioEnMonedas: Dada una lista de monedas y un monto. 
+Se regresa la mínima cantidad de monedas con las cuales se puede pagar 
+ese monto (y se muestran que monedas son).
+Al monto paulatinamente se le va disminuyendo el monto disminuido, 
+y en caso de no poder pagar con un tipo de moneda; se pasa a pagar 
+con otra moneda de menor valor.
+
+3) No se logró completar, por lo que se utilizó el fibonacci. 
+ El problema a tratar iba a ser el de la máxima cantidad de puentes 
+que se pueden construir a partir de dos costas llenas de ciudades.
+Una ordenada y la otra desordenada. 
+Tomando la lista desordenada, y sacando el "LIS" de este.
+El número de valores del LIS será equivalente al máximo números de puentes que se 
+podrían realizar.
