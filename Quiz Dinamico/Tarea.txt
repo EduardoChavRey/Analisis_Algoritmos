@@ -1,0 +1,8 @@
+Estudiante: Eduardo Chavarría Rey
+Carnét: 2013012779
+
+
+Se realizó el algoritmo del cambio de monedas y fibonacci para fines evaluativos. 
+Se intentó hacer el algoritmo de LIS aplicado en un problema: "Mayor cantidad de puentes sin cruce".
+Pero no se puso sacar, y por eso tuve que recurrir a hacer un algoritmo tan poco interesante como el 
+fibonacci.
