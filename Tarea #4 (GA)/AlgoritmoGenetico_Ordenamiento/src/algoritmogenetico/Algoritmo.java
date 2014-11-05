@@ -39,10 +39,10 @@ public class Algoritmo {
         // Loop over the population size and create new individuals with
         // cruce
         for (int i = elitismOffset; i < pop.size(); i++) {
-            Individuo indiv1 = torneoSeleccion(pop);
-            Individuo indiv2 = torneoSeleccion(pop);
-            Individuo newIndiv = cruce(indiv1, indiv2);
-            newPoblacion.guardarIndividuo(i, newIndiv);
+            Individuo indiv1 = pop.getIndividuo(i);
+            //Individuo newIndiv = cruce(indiv1, indiv2);
+            mutar(indiv1);
+            newPoblacion.guardarIndividuo(i, indiv1);
         }
 
         // Mutate population
@@ -73,15 +73,14 @@ public class Algoritmo {
     private static void mutar(Individuo indiv) {
         // Loop through genes
         for (int i = 0; i < indiv.size(); i++) {
-            if (Math.random() <= mutationRate) {
                 // Create random gene
-                int ran1 = (int)(Math.random()*indiv.size()) + 0;
-                System.out.println(ran1);
-                int ran2 = (int)(Math.random()*indiv.size()) + 0;
-                System.out.println(ran2);
-               indiv.setGen(ran1, indiv.getGen(ran2));
-               indiv.setGen(ran2, indiv.getGen(ran1));
-            }
+            Individuo temporal = indiv;
+               int ran1 = (int)(Math.random()*indiv.size()) + 0;
+               int ran2 = (int)(Math.random()*indiv.size()) + 0;
+               int valor1= indiv.getGen(ran1);
+               int valor2= indiv.getGen(ran2);
+               indiv.setGen(ran1, valor2);
+               indiv.setGen(ran2, valor1);
         }
     }
 
