@@ -1,0 +1,9 @@
+El algoritmo genético de la mochila, se representa mediante bytes. 
+Cada byte representa si el objeto está dentro del individuo mochila, 
+según el orden de objetos que hayan sido ingresados dentro del ArrayList Objetos.
+Además existe un límite para las generaciones.
+
+
+
+Por otra parte el algoritmo genético del ordenamiento se representa mediante un array de números.
+El cual muta de forma constante hasta dar con el correcto ordenamiento.
